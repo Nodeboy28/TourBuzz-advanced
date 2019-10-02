@@ -1,0 +1,23 @@
+{
+  "name": "tourbuzz",
+  "version": "1.0.0",
+  "description": "Advanced TourBuzz Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nodeboy28/TourBuzz-advanced.git"
+  },
+  "author": "Sudipta Mondal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nodeboy28/TourBuzz-advanced/issues"
+  },
+  "homepage": "https://github.com/Nodeboy28/TourBuzz-advanced#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
