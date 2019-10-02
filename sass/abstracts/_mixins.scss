@@ -1,0 +1,9 @@
+@mixin heading($fnSize, $ltSpace) {
+  font-size: $fnSize;
+  display: block;
+  letter-spacing: $ltSpace;
+  text-shadow: 0 1rem 2rem $color-black;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: $color-white;
+}

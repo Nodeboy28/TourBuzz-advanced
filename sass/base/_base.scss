@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 8px;
+  }
+}
+body {
+  box-sizing: border-box;
+}

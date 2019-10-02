@@ -1,0 +1,17 @@
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &__primary {
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+  }
+  &__secondary {
+    animation-name: moveInRight;
+    animation-duration: 2s;
+  }
+}
+.btn__heading {
+  margin-top: 2rem;
+}
